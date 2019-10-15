@@ -1,3 +1,6 @@
 /vendor/
 composer.json
 composer.lock
+.bowerrc
+bower.json
+app/bower_components/

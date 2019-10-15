@@ -1,3 +1,8 @@
+<?php require '../../vendor/autoload.php';
+    use Motor\Model\User;
+  $users = User::all();
+  var_dump($users);
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +10,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>   
-        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../bower_components/jquery/jquery.js"></script>
         <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <link href="css/main.css" rel="stylesheet">
     </head>

@@ -1,7 +1,6 @@
 <?php require '../../vendor/autoload.php';
     use Motor\Model\User;
-  $users = User::all();
-  var_dump($users);
+    $users = User::all();    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +14,7 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
+        <?php require_once '../layout/navbar.php'; ?>
         <div class="container">
             <br>
             <div class="panel panel-default">

@@ -1,0 +1,77 @@
+body{
+/*    background-image: url("../img/circuit.jpg");*/
+    background-size: cover;
+}
+button { 
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%; 
+} 
+/* set a hover effect for the button*/ 
+
+button:hover { 
+    opacity: 0.8; 
+} 
+/*set extra style for the cancel button*/ 
+
+.cancelbtn { 
+    width: auto; 
+    padding: 10px 18px; 
+    background-color: #f44336;             
+} 
+/*centre the display image inside the container*/ 
+
+.imgcontainer { 
+    text-align: center; 
+    margin: 24px 0 12px 0;         
+} 
+/*set image properties*/ 
+
+img.avatar { 
+    width: 20%; 
+    border-radius: 50%; 
+    
+} 
+/*set padding to the container*/ 
+
+.container { 
+    padding: 5%; 
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    border: 3px solid #f1f1f1;
+    margin-top: 80px;
+/*    background-color: rgba(255,255,255,.6);*/
+    
+} 
+/*set the forgot password text*/ 
+
+.forgot { 
+    float: right; 
+    padding-top: 16px; 
+} 
+/*set styles for span and cancel button on small screens*/ 
+
+@media screen and (max-width: 800px) { 
+    .forgot { 
+        display: block; 
+        float: none; 
+        font-size: 13px;
+    } 
+    .btn-success { 
+        width: 100%; 
+    } 
+    img.avatar { 
+        width: 40%; 
+        border-radius: 50%; 
+    }  
+    .container { 
+        padding: 16px; 
+        width: 100%;
+        margin-left: 0;
+    }
+} 

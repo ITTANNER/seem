@@ -1,4 +1,4 @@
 <?php
-    header('location:app/motor/index.php');
+    header('location:app/index.php');
 
  ?>
